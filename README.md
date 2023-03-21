@@ -66,6 +66,7 @@
 - [json-glib](https://gitlab.gnome.org/GNOME/json-glib)
 - [libsoup](https://gitlab.gnome.org/GNOME/libsoup)
 - [libarchive](https://github.com/libarchive/libarchive)
+- [libgee](https://gitlab.gnome.org/GNOME/libgee)
 - [desktop-file-utils](https://gitlab.freedesktop.org/xdg/desktop-file-utils)
 </details>
 
@@ -84,6 +85,7 @@
       json-glib-devel \
       libsoup3-devel \
       libarchive-devel \
+      libgee-devel \
       desktop-file-utils
     ```
 
@@ -187,3 +189,4 @@ All contributions are highly appreciated.
 This README is based on the README from [Gradience](https://github.com/GradienceTeam/Gradience) by [Gradience Team](https://github.com/GradienceTeam)
 
 **[⤴️ Back to Top](#ProtonPlus)**
+
