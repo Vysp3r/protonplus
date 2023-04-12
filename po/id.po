@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-27 11:56-0400\n"
+"POT-Creation-Date: 2023-04-11 21:13-0400\n"
 "PO-Revision-Date: \n"
 "Last-Translator: yukidream <mashirokuratamorfo@gmail.com>\n"
 "Language-Team: \n"
@@ -12,226 +12,236 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.2.2\n"
 
-#: src/launcher/launcher-warning-box.vala:21
-msgid "Welcome to "
+#: src/Windows/Main.vala:85
+msgid "A simple Wine and Proton-based compatiblity tools manager for GNOME"
 msgstr ""
 
-#: src/launcher/launcher-warning-box.vala:22
-msgid "Install Steam, Lutris, Bottles or Heroic Games Launcher to get started."
+#: src/Windows/Main.vala:92
+msgid "Special thanks to"
+msgstr ""
+
+#: src/Windows/Main.vala:107
+msgid "You cannot close the window while a tool is installing"
 msgstr ""
 
 #.
-#: src/launcher/launcher-info-box.vala:36
-#, fuzzy
-msgid "Installed only"
-msgstr "Memasang"
+#: src/Windows/ViewManager.vala:20
+msgid "Telegram"
+msgstr "Telegram"
 
-#: src/launcher/launcher-info-box.vala:191
-#: src/launcher/launcher-info-box.vala:200
-msgid "Load more"
-msgstr ""
+#: src/Windows/ViewManager.vala:21
+msgid "Documentation"
+msgstr "Dokumentasi"
 
-#: src/launcher/launcher-info-box.vala:215
-msgid "There was an error while fetching data from the GitHub API"
-msgstr ""
+#: src/Windows/ViewManager.vala:22
+msgid "Donation"
+msgstr "Donasi"
 
-#: src/launcher/launcher-info-box.vala:231
-#, fuzzy
-msgid "Are you sure you want to delete "
-msgstr "Apakah kamu yakin ingin menghapus alat ini?"
-
-#: src/launcher/launcher-info-box.vala:233
-msgid "Confirm"
-msgstr ""
-
-#: src/launcher/launcher-info-box.vala:270
-#, fuzzy
-msgid "Cancel the installation"
-msgstr "Informasi peluncur"
-
-#: src/launcher/launcher-info-box.vala:343
-#, fuzzy
-msgid "Delete the runner"
-msgstr "Menghapus alat"
-
-#: src/launcher/launcher-info-box.vala:356
-#, fuzzy
-msgid "Install the runner"
-msgstr "Memasang alat"
-
-#.
-#: src/launcher/launcher-list-box.vala:26
+#: src/Windows/ViewManager.vala:23
 msgid "About"
 msgstr "Tentang"
 
-#: src/shared/launchers/bottles.vala:6 src/shared/launchers/steam.vala:6
-msgid "Runners"
-msgstr ""
+#.
+#: src/Windows/ViewManager.vala:27
+msgid "Quit"
+msgstr "Keluar"
 
-#: src/shared/launchers/bottles.vala:7
-msgid "Compatibility tool to run Windows games on Linux"
-msgstr ""
+#.
+#: src/Windows/ViewManager.vala:31 src/Windows/ViewManager.vala:59
+#: src/Windows/Preferences/Main.vala:112
+msgid "Preferences"
+msgstr "Preferensi"
 
-#: src/shared/launchers/bottles.vala:11 src/shared/launchers/hgl.vala:15
-#: src/shared/launchers/lutris.vala:11
-msgid "Vulkan based implementation of Direct3D 9, 10 and 11 for Linux/Wine"
-msgstr ""
+#.
+#: src/Windows/ViewManager.vala:46 src/Windows/Tools/LauncherInfo.vala:67
+msgid "Tools"
+msgstr "Peralatan"
 
-#: src/shared/launchers/bottles.vala:50 src/shared/launchers/hgl.vala:86
-msgid "Contains improvements over Valve's default Proton."
-msgstr ""
+#.
+#: src/Windows/ViewManager.vala:50 src/Windows/Games/Main.vala:10
+msgid "Games"
+msgstr "Permainan"
 
-#: src/shared/launchers/bottles.vala:54
-msgid ""
-" Based on Valve Proton Experimental's bleeding-edge Wine, built for Lutris."
-msgstr ""
+#.
+#: src/Windows/ViewManager.vala:54 src/Windows/Notifications/Main.vala:10
+msgid "Notifications"
+msgstr "Pemberitahuan"
 
-#: src/shared/launchers/bottles.vala:58 src/shared/launchers/lutris.vala:58
-msgid ""
-"Improved by Lutris to offer better compatibility or performance in certain "
-"games."
-msgstr ""
-
-#: src/shared/launchers/hgl.vala:7
-msgid "Steam compatibility tool for running Windows games"
-msgstr ""
-
-#: src/shared/launchers/hgl.vala:11
-msgid "Wine is a program which allows running Microsoft Windows programs"
-msgstr ""
-
-#: src/shared/launchers/hgl.vala:19 src/shared/launchers/lutris.vala:15
-msgid ""
-"Fork of Wine's VKD3D which aims to implement the full Direct3D 12 API on top "
-"of Vulkan"
-msgstr ""
-
-#: src/shared/launchers/hgl.vala:62 src/shared/launchers/lutris.vala:54
-msgid ""
-"Based on Valve Proton Experimental's bleeding-edge Wine, built for Lutris."
-msgstr ""
-
-#: src/shared/launchers/hgl.vala:66 src/shared/launchers/lutris.vala:61
-msgid "Wine build compiled from the official WineHQ sources."
-msgstr ""
-
-#: src/shared/launchers/hgl.vala:69 src/shared/launchers/lutris.vala:64
-msgid "Wine build with the Staging patchset applied."
-msgstr ""
-
-#: src/shared/launchers/hgl.vala:72 src/shared/launchers/lutris.vala:67
-msgid ""
-"Wine build with the Staging patchset applied and with many additional useful "
-"patches."
-msgstr ""
-
-#: src/shared/launchers/hgl.vala:90 src/shared/launchers/steam.vala:67
-msgid ""
-"Custom Proton build for running Windows games, built with the Wine-tkg build "
-"system."
-msgstr ""
-
-#: src/shared/launchers/lutris.vala:7
-msgid "Program which allows running Microsoft Windows programs"
-msgstr ""
-
-#: src/shared/launchers/lutris.vala:87
-msgid "Contains RTX fix for Star Citizen."
-msgstr ""
-
-#: src/shared/launchers/steam.vala:63
-msgid ""
-"Steam compatibility tool for running Windows games with improvements over "
-"Valve's default Proton."
-msgstr ""
-
-#: src/shared/launchers/steam.vala:71
-msgid ""
-"Luxtorpeda provides Linux-native game engines for specific Windows-only "
-"games."
-msgstr ""
-
-#: src/shared/launchers/steam.vala:72
-msgid ""
-"Steam Play compatibility tool to run DOS games using native Linux DOSBox."
-msgstr ""
-
-#: src/shared/launchers/steam.vala:73
-msgid ""
-"Steam Play compatibility tool to run adventure games using native Linux "
-"ScummVM."
-msgstr ""
-
-#: src/shared/launchers/steam.vala:74
-msgid "Custom Proton build for running the Northstar client for Titanfall 2."
-msgstr ""
-
-#~ msgid "Preferences"
-#~ msgstr "Preferensi"
-
+#.
+#: src/Windows/Tools/LauncherSelector.vala:12
 #, fuzzy
-#~ msgid "Deleted "
+msgid "Launchers"
+msgstr "Peluncur"
+
+#: src/Windows/Tools/LauncherSelector.vala:13
+msgid "Select a launcher to proceed"
+msgstr ""
+
+#: src/Windows/Tools/LauncherInfo.vala:68
+msgid "Select a tool to proceed"
+msgstr ""
+
+#: src/Windows/Tools/ReleaseInfo.vala:35
+msgid "Copy"
+msgstr "Salin"
+
+#.
+#.
+#: src/Windows/Tools/ReleaseInfo.vala:63
+msgid "Delete"
+msgstr ""
+
+#: src/Windows/Tools/ReleaseInfo.vala:69
+msgid "Install"
+msgstr "Memasang"
+
+#.
+#: src/Windows/Tools/ReleaseInfo.vala:78
+msgid "Website"
+msgstr ""
+
+#: src/Windows/Tools/ReleaseInfo.vala:88
+msgid "Directory: "
+msgstr "Direktori: "
+
+#: src/Windows/Tools/ReleaseInfo.vala:89
+msgid "Size: "
+msgstr ""
+
+#: src/Windows/Tools/ReleaseInfo.vala:91
+msgid "Download size (Compressed): "
+msgstr ""
+
+#: src/Windows/Tools/ReleaseInfo.vala:93
+msgid "Release date: "
+msgstr ""
+
+#.
+#: src/Windows/Tools/ReleaseInstaller.vala:50
+msgid "Cancel"
+msgstr ""
+
+#.
+#: src/Windows/Tools/ReleaseInstaller.vala:56
+msgid "Go back"
+msgstr ""
+
+#: src/Windows/Tools/ReleaseInstaller.vala:76
+msgid "Cancelled the install..."
+msgstr ""
+
+#: src/Windows/Tools/ReleaseInstaller.vala:93
+msgid "You cannot cancel the operation for tools using Github Actions."
+msgstr ""
+
+#: src/Windows/Tools/ReleaseInstaller.vala:94
+#, fuzzy
+msgid "Download started...\n"
+msgstr "Mengunduh..."
+
+#: src/Windows/Tools/ReleaseInstaller.vala:132
+#, fuzzy
+msgid "Download done...\n"
+msgstr "Mengunduh..."
+
+#: src/Windows/Tools/ReleaseInstaller.vala:143
+#, fuzzy
+msgid "Extraction started...\n"
+msgstr "Mengekstrak..."
+
+#: src/Windows/Tools/ReleaseInstaller.vala:146
+msgid "You cannot cancel the operation while it's extracting."
+msgstr ""
+
+#: src/Windows/Tools/ReleaseInstaller.vala:177
+msgid "There was an error while extracting..."
+msgstr ""
+
+#: src/Windows/Tools/ReleaseInstaller.vala:187
+#, fuzzy
+msgid "Extraction done...\n"
+msgstr "Mengekstrak..."
+
+#: src/Windows/Games/Main.vala:11 src/Windows/Notifications/Main.vala:11
+msgid "This page is a work in progress."
+msgstr ""
+
+#.
+#: src/Windows/Preferences/Main.vala:40 src/Windows/Preferences/Main.vala:41
+msgid "Main"
+msgstr ""
+
+#.
+#.
+#.
+#: src/Windows/Preferences/Main.vala:54
+#, fuzzy
+msgid "Style"
+msgstr "Gaya"
+
+#: src/Windows/Preferences/Main.vala:90
+msgid "Shortcut installed."
+msgstr ""
+
+#: src/Windows/Preferences/Main.vala:92
+msgid "Shortcut uninstalled"
+msgstr ""
+
+#: src/Windows/Preferences/Main.vala:103
+msgid "Steam shortcut"
+msgstr ""
+
+#: src/Windows/Preferences/Main.vala:113
+msgid "There is nothing to see here."
+msgstr ""
+
+#.
+#: src/Windows/Errors/GithubApiRequest.vala:22
+msgid "Github API Request Error"
+msgstr ""
+
+#: src/Windows/Errors/GithubApiRequest.vala:23
+msgid ""
+"Here's a list of the possible reasons why that error happened\n"
+"- You may have reached the GitHub API limit\n"
+"- You may be disconnected from the internet"
+msgstr ""
+
+#. Steam
+#: src/Models/Launcher.vala:64
+msgid ""
+"Make sure to restart Steam if it's open to be able to use it otherwise you "
+"will not see it.\n"
+msgstr ""
+
+#: src/Models/Launcher.vala:91
+msgid ""
+"If you're using gamescope with Steam (Flatpak), those tools will not work. "
+"Make sure to use the community builds from Flathub."
+msgstr ""
+
+#: src/Models/Preferences/Style.vala:17
+msgid "System"
+msgstr "Sistem"
+
+#: src/Models/Preferences/Style.vala:18
+msgid "Light"
+msgstr "Terang"
+
+#: src/Models/Preferences/Style.vala:19
+msgid "Dark"
+msgstr "Gelap"
+
+#: src/Models/Preferences/Steam.vala:111
+msgid "Shortcut file not found"
+msgstr ""
+
+#~ msgid "Delete the tool"
 #~ msgstr "Menghapus alat"
 
-#~ msgid "Telegram"
-#~ msgstr "Telegram"
-
-#~ msgid "Documentation"
-#~ msgstr "Dokumentasi"
-
-#~ msgid "Donation"
-#~ msgstr "Donasi"
-
-#~ msgid "Quit"
-#~ msgstr "Keluar"
-
-#~ msgid "Tools"
-#~ msgstr "Peralatan"
-
-#~ msgid "Games"
-#~ msgstr "Permainan"
-
-#~ msgid "Notifications"
-#~ msgstr "Pemberitahuan"
-
 #, fuzzy
-#~ msgid "Launchers"
-#~ msgstr "Peluncur"
-
-#~ msgid "Copy"
-#~ msgstr "Salin"
-
-#~ msgid "Directory: "
-#~ msgstr "Direktori: "
-
-#, fuzzy
-#~ msgid "Download started...\n"
-#~ msgstr "Mengunduh..."
-
-#, fuzzy
-#~ msgid "Download done...\n"
-#~ msgstr "Mengunduh..."
-
-#, fuzzy
-#~ msgid "Extraction started...\n"
-#~ msgstr "Mengekstrak..."
-
-#, fuzzy
-#~ msgid "Extraction done...\n"
-#~ msgstr "Mengekstrak..."
-
-#, fuzzy
-#~ msgid "Style"
-#~ msgstr "Gaya"
-
-#~ msgid "System"
-#~ msgstr "Sistem"
-
-#~ msgid "Light"
-#~ msgstr "Terang"
-
-#~ msgid "Dark"
-#~ msgstr "Gelap"
+#~ msgid "Install the tool"
+#~ msgstr "Memasang alat"
 
 #~ msgid "Name: "
 #~ msgstr "Nama: "
@@ -283,8 +293,14 @@ msgstr ""
 #~ msgid "Remember last launcher"
 #~ msgstr "Mengingat peluncur terakhir"
 
+#~ msgid "Launcher information"
+#~ msgstr "Informasi peluncur"
+
 #~ msgid "Launcher settings"
 #~ msgstr "Pengaturan peluncur"
 
 #~ msgid "Show information"
 #~ msgstr "Menunjukkan informasi"
+
+#~ msgid "Are you sure you want to delete the selected tool?"
+#~ msgstr "Apakah kamu yakin ingin menghapus alat ini?"
